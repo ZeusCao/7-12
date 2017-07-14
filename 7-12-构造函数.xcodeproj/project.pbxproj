@@ -14,6 +14,8 @@
 		C0FC736C1F160BDB00E3620A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FC736A1F160BDB00E3620A /* LaunchScreen.storyboard */; };
 		C0FC73771F160BDB00E3620A /* __12_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC73761F160BDB00E3620A /* __12_____Tests.swift */; };
 		C0FC73821F160BDB00E3620A /* __12_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC73811F160BDB00E3620A /* __12_____UITests.swift */; };
+		C0FC73901F160C0300E3620A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC738F1F160C0300E3620A /* Person.swift */; };
+		C0FE6BDC1F17150400C2E940 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE6BDB1F17150400C2E940 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C0FC737D1F160BDB00E3620A /* 7-12-构造函数UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7-12-构造函数UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FC73811F160BDB00E3620A /* __12_____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__12_____UITests.swift"; sourceTree = "<group>"; };
 		C0FC73831F160BDB00E3620A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FC738F1F160C0300E3620A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C0FE6BDB1F17150400C2E940 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				C0FC73611F160BDB00E3620A /* AppDelegate.swift */,
 				C0FC73631F160BDB00E3620A /* ViewController.swift */,
+				C0FC738F1F160C0300E3620A /* Person.swift */,
+				C0FE6BDB1F17150400C2E940 /* Student.swift */,
 				C0FC73651F160BDB00E3620A /* Main.storyboard */,
 				C0FC73681F160BDB00E3620A /* Assets.xcassets */,
 				C0FC736A1F160BDB00E3620A /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0FC73901F160C0300E3620A /* Person.swift in Sources */,
 				C0FC73641F160BDB00E3620A /* ViewController.swift in Sources */,
 				C0FC73621F160BDB00E3620A /* AppDelegate.swift in Sources */,
+				C0FE6BDC1F17150400C2E940 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +513,7 @@
 				C0FC73881F160BDB00E3620A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0FC73891F160BDB00E3620A /* Build configuration list for PBXNativeTarget "7-12-构造函数Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				C0FC738B1F160BDB00E3620A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0FC738C1F160BDB00E3620A /* Build configuration list for PBXNativeTarget "7-12-构造函数UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				C0FC738E1F160BDB00E3620A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
